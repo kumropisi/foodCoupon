@@ -1,0 +1,12 @@
+# Use LF for Java source files
+*.java text eol=lf
+# Use LF for common text files
+*.xml text eol=lf
+*.properties text eol=lf
+*.md text eol=lf
+# Use LF for shell scripts
+*.sh text eol=lf
+# Use CRLF for Windows scripts
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.java text eol=lf
