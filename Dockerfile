@@ -3,7 +3,7 @@ FROM openjdk:17
 #Set working directory inside container
 WORKDIR /app
 #Copy the compiled java application JAR file into the container
-COPY ./target/foodCoupon.jar /app
+COPY ./target/foodPass-0.0.1-SNAPSHOT.jar /app/foodCoupon.jar
 #Expose the port for spring boot application will run application
 EXPOSE 8080
 #Command to run the application
