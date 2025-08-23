@@ -10,5 +10,4 @@ public class FoodPassApplication {
 		SpringApplication.run(FoodPassApplication.class, args);
 	}
 
-
 }
